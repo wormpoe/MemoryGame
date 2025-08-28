@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad56702921f98cd489230e9b7a01b62e, type: 3}
+  m_Name: BonusesConfig
+  m_EditorClassIdentifier: 
+  _bonusData:
+  - _id: 0
+    _name: Lens
+    _bonusLogo: {fileID: 21300000, guid: f1dc9cca418b11447b212c44da635d21, type: 3}
+    _bonusButtonPrefab: {fileID: 522044925698082950, guid: 76dc6fa12593d3146b32d75f7b72dcf8, type: 3}
+    _price: 100
+  - _id: 1
+    _name: FindPair
+    _bonusLogo: {fileID: 21300000, guid: a3745e5598e99ba45a30f4f071032748, type: 3}
+    _bonusButtonPrefab: {fileID: 8673946812571449873, guid: 09f492eefa000d547a96674549a79ec1, type: 3}
+    _price: 50
+  - _id: 2
+    _name: Shield
+    _bonusLogo: {fileID: 21300000, guid: 9efda058f1cbaf74e8e3ef248b34d9e0, type: 3}
+    _bonusButtonPrefab: {fileID: 3535749773504793891, guid: de407fc14430533438e96c3d921f70e7, type: 3}
+    _price: 200
